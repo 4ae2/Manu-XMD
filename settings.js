@@ -43,12 +43,12 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&9CthSDbD#Ld3n0E1l7La4jXRZAUKPzlKFKsdqf-PHppX4t59PTwQ' : process.env.SESSION_ID,
-PREFIX: process.env.PREFIX || '+' ,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&1OkiVQiL#C8_Sk_9MdxNUg4CqJFmULvV4PXUeGPTE-XSjpzg3LGE' : process.env.SESSION_ID,
+PREFIX: process.env.PREFIX || '💎' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SUDO: process.env.SUDO === undefined ? '52 771 329 0869' : process.env.SUDO,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
-MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"false" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "true" : process.env.ANTI_LINK,
